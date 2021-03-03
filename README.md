@@ -10,6 +10,8 @@ A service which can scan and count online devices over your LAN
 
 This program dependent on `InfluxDB`, `Chronograf` and `Advanced IP Scanner v2`, you should downlaod those software before running this program.
 
+原理是借助了 `InfluxDB`、`Chronograf` 和 `Advanced IP Scanner v2`，在这三个软件的基础上进行了集成。软件自身启动的时候会自动启动 `InfluxDB` 和 `Chronograf`，并且每隔30分钟会运行一次 `Advanced IP Scanner v2`，然后把扫描结果存入 `InfluxDB` 中，通过 `Chronograf` 进行展示
+
 ## 截图/Screenshot
 ![screenshot](Images/Screenshot1.png)
 
