@@ -10,6 +10,13 @@ A service which can scan and count online devices over your LAN
 
 This program dependent on `InfluxDB`, `Chronograf` and `Advanced IP Scanner v2`, you should downlaod those software before running this program.
 
+## 截图/Screenshot
+![screenshot](Images/Screenshot1.png)
+
+![screenshot](Images/Screenshot2.png)
+
+![screenshot](Images/Screenshot3.png)
+
 ## 使用方法/Usage
 ### Step1.下载依赖软件/Download dependencies
 1. [InfluxDB](https://portal.influxdata.com/downloads/) <br/>我使用的版本是 1.7.8，理论上 2.0 以下的版本都可以，2.0 以上的没试过
