@@ -6,6 +6,9 @@
 
 A service which can scan and count online devices over your LAN
 
+[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu) [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
+
+
 通过 `InfluxDB`、`Chronograf` 和 `Advanced IP Scanner v2` 来实现，在运行本软件前，需要下载上述软件并放到指定目录下
 
 This program dependent on `InfluxDB`, `Chronograf` and `Advanced IP Scanner v2`, you should downlaod those software before running this program.
